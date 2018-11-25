@@ -170,7 +170,7 @@ createRestaurantHTML = (restaurant) => {
   li.append(div);
 
   const more = document.createElement('button');
-  more.innerHTML = 'View Details';
+  more.innerHTML = 'VIEW DETAILS';
   more.addEventListener('click', () => { window.location.href = DBHelper.urlForRestaurant(restaurant); });
   li.append(more);
 
